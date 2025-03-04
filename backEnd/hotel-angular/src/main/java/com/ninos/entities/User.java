@@ -37,7 +37,7 @@ public class User {
     @Enumerated(EnumType.STRING)
     private UserRole role;   // e.g CUSTOMER, ADMIN
 
-    private Boolean isActive;
+    private boolean active;
     private final LocalDateTime creationAt = LocalDateTime.now();
 
 
