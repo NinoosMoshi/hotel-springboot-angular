@@ -40,6 +40,7 @@ public class Response {
     private List<RoomDTO> rooms;
 
     // payment data output
+    private String transactionId;
     private PaymentDTO payment;
     private List<PaymentDTO> payments;
 
@@ -48,5 +49,8 @@ public class Response {
     private List<NotificationDTO> notifications;
 
     private final LocalDateTime timestamp = LocalDateTime.now();
+
+
+
 
 }
